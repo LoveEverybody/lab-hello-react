@@ -28,6 +28,81 @@
   color: #61dafb;
 }
 
+.phrase-footer-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 3cm; /* Adiciona margem à esquerda */
+  margin-right: 3cm; /* Adiciona margem à direita */
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+}
+
+.menu {
+  width: 100px;
+  height: 100px;
+}
+
+.phrase-container {
+  text-align: left; 
+  margin-top: 65px;
+  margin-left: 3cm; 
+  font-size: 28px;
+}
+
+.header {   
+  padding: 10px;
+  margin-right: auto; 
+}
+
+.header h1 {
+  font-family: Arial, sans-serif;
+  font-size: 100px;
+  font-weight: bold;
+  color: white;
+}
+
+.reactjs {
+  color: white;
+}
+
+.description p {
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  color: white;
+ 
+}
+
+.awesome-button {
+  font-size: 16px; 
+  padding: 15px 30px; 
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  /* margin-left: 3cm;  */
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

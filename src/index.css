@@ -5,7 +5,15 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: black;
+  /* background-color: #282c34; */
+  background-image: url("./images/back.png");
+  background-size: 100% auto;
+  background-repeat: no-repeat;  
+  
+  background-position: left; 
+  
+  /* background-size: cover; */
+
 }
 
 code {
